@@ -1,0 +1,29 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  /* background-image: url("puppy.jpg"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border-radius: 10px;
+  display: inline-block;
+  margin: 40px;
+}
+
+img {
+ border: 10px dotted orangered;
+ padding: 20px;
+border-radius: 100%;
+ }
+
+.onedog {
+  border: 10px dashed green;
+}
+
+.twodog {
+  border: 10px groove purple;
+}
+
+.threedog {
+  border: 10px  groove black;
+}
