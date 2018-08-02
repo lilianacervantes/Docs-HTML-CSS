@@ -1,10 +1,10 @@
 html {
-  background-color: blue;
+  background-color: #00539f;
 }
 
 div {
   width: 600px;
-  background-color: green;
+  background-color: #00c957;
   border: 10px solid black;
   padding: 15px;
   box-sizing: border-box;
@@ -16,17 +16,17 @@ img {
   background-repeat: no-repeat;
   margin: 0 auto;
   display: block;
-  border: 20px groove yellow;
+  border: 20px ridge gold;
   border-radius: 100%;
 }
 
- .first{
+ #first{
    font-family: sans-serif;
    font-size: 32px;
-   color:blue;
+   color: #0266c8;
  }
 
- .second{
+ #second{
    font-family: sans-serif;
    font-size: 32px;
    color:orangered;
