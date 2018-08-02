@@ -1,0 +1,38 @@
+html {
+  background-color: blue;
+}
+
+div {
+  width: 600px;
+  background-color: green;
+  border: 10px solid black;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: block;
+  border: 20px groove yellow;
+  border-radius: 100%;
+}
+
+ .first{
+   font-family: sans-serif;
+   font-size: 32px;
+   color:blue;
+ }
+
+ .second{
+   font-family: sans-serif;
+   font-size: 32px;
+   color:orangered;
+ }
+
+ p{
+   font-family: sans-serif;
+   font-size: 16px;
+ }
