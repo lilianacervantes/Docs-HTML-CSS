@@ -1,0 +1,27 @@
+html {
+  font-family: serif;
+}
+
+.h1 {
+text-shadow: 10px 10px 10px red;
+}
+
+#paragraph {
+  font-family: sans-serif;
+}
+
+#paragraphtwo {
+  font-family: 'Indie Flower', cursive;
+}
+
+#paragraphthree {
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 2rem;
+  text-decoration: line-through;
+  text-indent: 5em;
+}
+
+.a {
+  text-decoration: none;
+}
