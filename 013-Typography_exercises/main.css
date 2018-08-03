@@ -1,0 +1,10 @@
+p::first-letter {
+  font-size: 36px;
+  color: gray;
+  font-family: cursive;
+}
+
+p::first-line {
+  font-family: fantasy;
+  color: orangered;
+}
