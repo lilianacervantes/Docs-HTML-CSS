@@ -1,0 +1,19 @@
+.class {
+  color:red;
+}
+
+#id {
+  color:blue;
+}
+
+div {
+  width: 100px;
+  height: 100px
+  background-color: blue;
+}
+
+#divid {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+}
