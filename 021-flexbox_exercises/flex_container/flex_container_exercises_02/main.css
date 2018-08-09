@@ -1,0 +1,11 @@
+body {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+
+div {
+  background-color: gray;
+  border: 2px solid black;
+  height:50px
+}

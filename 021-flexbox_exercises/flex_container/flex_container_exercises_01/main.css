@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-flow:row-reverse wrap;
+  justify-content: center;
+  border: 5px solid red;
+}
+
+div {
+  background-color: gray;
+  border: 2px solid black;
+  height:200px;
+  flex-grow: 1;
+}

@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  border: 2px solid red;
+  height: 1200px;
+  width:800px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+div {
+  height: 50px;
+  flex: 2 5 2;
+  border: 2px black solid;
+  background-color: gray;
+}

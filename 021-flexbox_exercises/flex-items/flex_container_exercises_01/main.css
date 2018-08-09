@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  height: 1200px;
+  border: 2px solid red;
+}
+
+div {
+  background-color: blue;
+  border: 2px black solid;
+  /* height: 50px; */
+  margin: 10px;
+  align-items: stretch;
+  flex: 1 2 1;
+}
