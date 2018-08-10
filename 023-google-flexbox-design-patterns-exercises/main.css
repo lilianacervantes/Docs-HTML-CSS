@@ -9,4 +9,5 @@ div {
   height:150px;
   border: 2px black solid;
   background-color: gray;
+  text-align: center;
 }
