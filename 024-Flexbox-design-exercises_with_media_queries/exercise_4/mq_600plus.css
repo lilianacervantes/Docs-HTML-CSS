@@ -1,7 +1,19 @@
-aside {
+.one, .two {
   width: 15%;
 }
 
 article {
   width: 70%;
+  order: 3;
+}
+
+.one {
+  order: 2;
+}
+
+.two {
+  order:4;
+}
+.footer {
+  order:5;
 }

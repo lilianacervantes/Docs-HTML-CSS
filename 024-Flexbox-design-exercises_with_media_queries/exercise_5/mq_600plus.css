@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header {
+  width: 100%;
+  order: 1;
+}
+
+nav  {
+  width: 15%;
+  order: 2;
+}
+
+.one {
+  width: 15%;
+  order:4;
+}
+
+article {
+  width: 70%;
+  order: 3
+}
+
+footer {
+  order: 5;
+  width: 100%;
+}
