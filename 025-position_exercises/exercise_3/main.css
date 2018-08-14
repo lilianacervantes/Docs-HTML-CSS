@@ -1,0 +1,21 @@
+#R {
+  border: 2px red solid;
+  background-color: orangered;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  font-weight: bold;
+
+}
+
+#A {
+  border: 2px red solid;
+  background-color: magenta;
+  height: 100px;
+  width:100px;
+  position: absolute;
+  right: 330px;
+  top: 150px;
+  font-weight: bold;
+
+}
