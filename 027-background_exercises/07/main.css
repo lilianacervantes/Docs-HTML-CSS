@@ -1,0 +1,8 @@
+div {
+  border: 5px ridge orange;
+  width: 200px;
+  height: 200px;
+  background-image: url(dog.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+}
