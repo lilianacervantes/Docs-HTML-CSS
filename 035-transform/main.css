@@ -1,0 +1,31 @@
+html, body {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  height:100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  color: blue;
+}
+
+.circle {
+  font-size: 8rem;
+  animation-name: spinner;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
