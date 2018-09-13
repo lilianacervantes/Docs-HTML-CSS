@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  color: skyblue;
+  animation-name: growshrink;
+  font-size: 3vw;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes growshrink {
+  0% {font-size: 3vw;}
+  100% {font-size: 6vw;}
+}
