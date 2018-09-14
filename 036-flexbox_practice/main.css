@@ -1,0 +1,71 @@
+html, body, p {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#atf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 2px solid gray
+  padding: 10px 10px;
+}
+
+p{
+  font-size: 6vw;
+  color: gray;
+}
+
+footer {
+  display:flex;
+  justify-content: center;
+}
+
+#foot{
+  display:flex;
+  border-top: 2px solid gray;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 12rem;
+}
+
+#ftr-spn, #buttons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6rem;
+  font-size: 2rem;
+  color: gray;
+}
+
+span{
+  padding-left: 50px;
+}
+
+button {
+  background-color: white;
+  color: skyblue;
+  font-size: 2rem;
+  border: 0;
+}
+
+.icon{
+  width: 1em;
+  height: 1em;
+  fill: gray;
+}
+
+.circle {
+  animation-name: spinner;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinner {
+  0% {transform:rotate (0deg);}
+  100% {transform:rotate (360deg);}
+}
