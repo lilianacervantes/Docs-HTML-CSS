@@ -1,0 +1,20 @@
+html, body, div {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div{
+  width: 80%;
+  border-radius: 1rem;
+  font-size: 4rem;
+  background: linear-gradient(red, purple, blue);
+  text-align: center;
+}
