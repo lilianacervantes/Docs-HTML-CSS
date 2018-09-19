@@ -1,0 +1,40 @@
+html, body, div {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  color:gray;
+  font-size: 3vw;
+  font-family: sans-serif;
+}
+
+#atf {
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  height: 60vh;
+  width: 80vh;
+  display:flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+.one, .two, .three {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  padding:20px;
+
+}
+
+.one, .two {
+  border-bottom: 2px solid lightgray;
+}
